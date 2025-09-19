@@ -1,4 +1,43 @@
 body{
     font-family: Work Sans;
-    
+    padding: 0;
+}
+
+header{
+    background-color: #fff0bb;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+    margin: 0rem 4rem;
+}
+
+.nav-container-title{
+    color: #131313;
+    font-size: 2rem ;
+    font-weight: 800;
+}
+
+.nav-site-links{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    align-items: center;
+    gap: 2rem;
+    color: #424242;
+}
+
+.nav-site-links a{
+    text-decoration: none;
+}
+
+.nav-site-links a:hover{
+    color: blueviolet;
+}
+
+.nav-site-links a:active{
+    color: chocolate;
 }
