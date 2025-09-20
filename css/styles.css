@@ -145,6 +145,64 @@ header{
 .our-features-btn:hover{
     background-color: #a65c06;
 }
+/* our features container end  */
+/* our experience container start  */
+
+.our-experience-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    gap: 1rem;
+    margin: 3rem 4rem;
+    position: absolute;
+}
+
+.our-experience-title{
+    padding: 1rem;
+    border-left: #FF900E solid 0.5rem;
+}
+
+.our-experience-image{
+    width: 100%;
+}
+
+.our-experience-image img{
+    width: 100%;
+}
+
+.our-experiences{
+    padding: 0.1rem 0.1rem;
+    /* box-shadow: 0rem 0rem 0.3rem 0.1rem #727272; */
+    border: none;
+    border-radius: 0.5rem;
+}
+.our-experiences:hover {
+    box-shadow: 0rem 0rem 0.3rem 0.1rem #727272;
+    border: none;
+    border-radius: 0.5rem;
+    pointer-events: painted;
+}
+
+.ten-year-text{
+    position: relative;
+    top: -20%;
+    bottom: 0%;
+    right: 10%;
+}
+
+.tex-ten-years{
+    padding: 1rem;
+    background-color: #FF900E;
+    color: white;
+    text-align: center;
+    width: 40%;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.experience-text{
+    font-size: 16px;
+}
 
 /* Responsive for small devices  */
 
@@ -187,6 +245,14 @@ header{
     width: 100%;
     }
     /* our features end  */
+    /* our experience container start  */
+    .our-experience-container{
+        flex-direction: column-reverse;
+    }
+    .tex-ten-years{
+        width: auto;
+    }
+    /* end of the our experience container  */
 }
 
 /* Responsive for medium devices  */
@@ -222,5 +288,13 @@ header{
     width: 100%;
     }
     /* our features end  */
+    /* our experience container start  */
+    .our-experience-container{
+        flex-direction: column-reverse;
+    }
+    .tex-ten-years{
+        width: auto;
+    }
+    /* end of our experience container  */
 }
     
