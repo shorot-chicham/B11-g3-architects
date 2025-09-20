@@ -154,7 +154,6 @@ header{
     align-items: top;
     gap: 1rem;
     margin: 3rem 4rem;
-    position: absolute;
 }
 
 .our-experience-title{
@@ -202,7 +201,45 @@ header{
 
 .experience-text{
     font-size: 16px;
+} 
+/* our experience container end  */
+/* Some Facts container start  */
+
+
+.some-facts-container{
+    margin: 3rem 4rem;
 }
+
+.some-facts-content{
+    width: 60%;
+}
+
+.some-facts-title{
+    color: #131313;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.some-facts-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 2rem 0rem;
+}
+
+.facts-info{
+    padding: 2rem;
+    text-align: center;
+    border: none;
+    border-radius: 1rem;
+}
+
+.facts-info:hover{
+    box-shadow: 0 0 0.3rem 0.1rem #FF900E;
+}
+
+/* some facts container end  */
 
 /* Responsive for small devices  */
 
@@ -253,6 +290,13 @@ header{
         width: auto;
     }
     /* end of the our experience container  */
+    /* some facts container start  */
+    .some-facts-info{
+    flex-direction: column;
+    }
+    .some-facts-content{
+    width: 100%;
+    }
 }
 
 /* Responsive for medium devices  */
@@ -296,5 +340,13 @@ header{
         width: auto;
     }
     /* end of our experience container  */
+    /* some facts start  */
+    .some-facts-info{
+    flex-wrap: wrap;
+    }
+    .some-facts-content{
+    width: 100%;
+    }
+    /* some facts end  */
 }
     
