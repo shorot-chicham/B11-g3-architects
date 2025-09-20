@@ -84,9 +84,66 @@ header{
 }
 
 .banner-img-content img{
-    width: 100%;
+    width: 90%;
     height: auto;
     padding: 2rem;
+}
+/* banner section styles end from here  */
+
+/* our features container styles start from here  */
+.our-features-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin: 3rem 4rem;
+}
+
+.our-features-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.4rem;
+}
+
+.our-features-images img{
+    width: 100%;
+    height: auto;
+}
+
+.our-features-content-text{
+    width: 60%;
+}
+
+.our-features-title{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.quick-list-text{
+    color: #727272;
+}
+
+.features-text{
+    color: #FF900E;
+}
+
+.our-features-description{
+    color: #727272;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.our-features-btn{
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #FF900E;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.our-features-btn:hover{
+    background-color: #a65c06;
 }
 
 /* Responsive for small devices  */
@@ -116,10 +173,25 @@ header{
     .banner-img-content img {
         padding: 1rem 0;
     }
+    /* banner and nav end  */
+    /* our features start  */
+
+    .our-features-container{
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 3rem 4rem;
+    }
+
+    .our-features-content-text{
+    width: 100%;
+    }
+    /* our features end  */
 }
 
 /* Responsive for medium devices  */
 @media (min-width: 577px) and (max-width: 992px) {
+    /* banner and nav start  */
     .nav-container {
         margin: 0 2rem;
         gap: 1.5rem;
@@ -137,5 +209,18 @@ header{
         padding: 1.5rem;
         width: 90%;
     }
+    /* banner and nav end  */
+    /* our features start  */
+    .our-features-container{
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 3rem 4rem;
+    }
+
+    .our-features-content-text{
+    width: 100%;
+    }
+    /* our features end  */
 }
     
