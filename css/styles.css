@@ -240,6 +240,27 @@ header{
 }
 
 /* some facts container end  */
+/* our sponsors container start  */
+
+.our-sponsors-container{
+    margin: 3rem 4rem;
+}
+
+.our-sponsors-content{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.our-sponsors{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0rem;
+}
+/* our sponsors container end  */
 
 /* Responsive for small devices  */
 
@@ -297,6 +318,15 @@ header{
     .some-facts-content{
     width: 100%;
     }
+    /* some facts end  */
+    /* our sponsors start  */
+    .our-sponsors{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .our-sponsors-content{
+        width: 100%;
+    }
+    /* our sponsors end  */
 }
 
 /* Responsive for medium devices  */
@@ -348,5 +378,13 @@ header{
     width: 100%;
     }
     /* some facts end  */
+    /* our sponsors start  */
+    .our-sponsors{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .our-sponsors-content{
+        width: 100%;
+    }
+    /* our sponsors end  */
 }
     
