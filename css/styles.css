@@ -262,6 +262,16 @@ header{
 }
 /* our sponsors container end  */
 
+/* footer container start  */
+
+footer{
+    background-color: #fff0bb;
+    color: #131313;
+    text-align: center;
+    padding: 0.2rem 0rem;
+    margin: 2rem 4rem;
+}
+
 /* Responsive for small devices  */
 
 @media (max-width: 576px) {
@@ -327,6 +337,15 @@ header{
         width: 100%;
     }
     /* our sponsors end  */
+
+    /* footer  */
+    footer{
+        margin: 1rem 1rem;
+    }
+    /* spacing  */
+    .banner-container, .our-features-container, .our-experience-container, .some-facts-container, .our-sponsors-container{
+        margin: 2rem 1rem;
+    }
 }
 
 /* Responsive for medium devices  */
@@ -386,5 +405,13 @@ header{
         width: 100%;
     }
     /* our sponsors end  */
+    /* footer  */
+    footer{
+        margin: 1rem 1rem;
+    }
+    /* spacing  */
+    .banner-container, .our-features-container, .our-experience-container, .some-facts-container, .our-sponsors-container{
+        margin: 2rem 2rem;
+    }
 }
     
